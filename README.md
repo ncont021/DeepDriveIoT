@@ -74,8 +74,8 @@ pi@raspberry:~ $ hostname -I
 ```
 # Arduino IDE
 ## Installing Libraries 
-### PubSubClient Library - publish/subscribe messaging with a server that supports MQTT [PubSub Library](https://github.com/knolleary/pubsubclient)
-### DHT Sensor Library - an easy way of using any DHT sensor to read temperature and humidity [DHT Library](https://github.com/adafruit/DHT-sensor-library)
+PubSubClient Library - publish/subscribe messaging with a server that supports MQTT [PubSub Library](https://github.com/knolleary/pubsubclient)
+DHT Sensor Library - an easy way of using any DHT sensor to read temperature and humidity [DHT Library](https://github.com/adafruit/DHT-sensor-library)
 
 ## Pin Outs
 ### ESP8266 Pin Out
