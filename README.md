@@ -59,8 +59,8 @@ pi@raspberry:~ $ sudo apt install -y mosquitto mosquitto-clients
 pi@raspberry:~ $ sudo systemctl enable mosquitto.service
 ```
 
-```bash
 ### Starting it!
+```bash
 pi@raspberry:~ $ mosquitto -v
 ```
 ### What is my IP?
