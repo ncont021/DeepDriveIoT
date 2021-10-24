@@ -67,7 +67,16 @@ pi@raspberry:~ $ mosquitto -v
 ```bash
 pi@raspberry:~ $ hostname -I 
 ```
+# Arduino IDE
+## Installing Libraries 
+### PubSubClient Library - publish/subscribe messaging with a server that supports MQTT [PubSub Library](https://github.com/knolleary/pubsubclient)
+### DHT Sensor Library - an easy way of using any DHT sensor to read temperature and humidity [DHT Library](https://github.com/adafruit/DHT-sensor-library)
 
+## Pin Outs
+### ESP8266 Pin Out
+# ![38](DPIoT/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png)
+### Project Basic Pin Out
+# ![39](DPIoT/ESP8266_MQTT_Node-RED_bb-1.png)
 ```C++
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
