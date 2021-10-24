@@ -40,13 +40,16 @@
 
 ## MQTT Protocol MQ Telemetry Transport Protocol (Port 1883)
 Is a lightweight protocol to publish and subscribe system where you can publish and receive messages as a client. It is capable of connecting millions of devices and it is know for its scalability and its simple use. It is know in the field of IoT given the distribution of data in low-bandwidth environments.
+# ![36](DPIoT/MQTT-Broker-1-2.png)
 
 ## Node-RED
 An open source tool for building Internet of Things (IoT), making use of low code environment by making use of visual programming and connecting blocks to performs a task.
 [Node RED Main Page](https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/)
+# ![37](DPIoT/Node-RED-overview.png)
 
 ## Mosquito Broker
 In an MQTT protocol the broker is responsible for receving, filtering, and then decidng who is responsible for pbuilching messages to subscribe clinets. Mosquitto is one broker that is installed in the Raspberry Pi.
+# ![38](DPIoT/Installing-and-Testing-MQTT-Broker-on-Raspberry-Pi-for-IoT-Communication.png)
 
 ```C++
 #include <ESP8266WiFi.h>
