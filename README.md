@@ -36,6 +36,13 @@
 # ![34](DPIoT/20211019_180001000_iOS.jpg)
 # ![35](DPIoT/20211019_180043000_iOS.jpg)
 
+# Arduino - Pi - Azure 
+
+## MQTT Protocol MQ Telemetry Transport Protocol (Port 1883)
+Is a lightweight protocol to publish and subscribe system where you can publish and receive messages as a client. It is capable of connecting millions of devices and it is know for its scalability and its simple use. It is know in the field of IoT given the distribution of data in low-bandwidth environments.
+
+## Node-RED
+An open source tool for building Internet of Things (IoT), making use of low code environment by making use of visual programming and connecting blocks to performs a task
 ```C++
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
