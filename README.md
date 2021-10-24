@@ -42,7 +42,12 @@
 Is a lightweight protocol to publish and subscribe system where you can publish and receive messages as a client. It is capable of connecting millions of devices and it is know for its scalability and its simple use. It is know in the field of IoT given the distribution of data in low-bandwidth environments.
 
 ## Node-RED
-An open source tool for building Internet of Things (IoT), making use of low code environment by making use of visual programming and connecting blocks to performs a task
+An open source tool for building Internet of Things (IoT), making use of low code environment by making use of visual programming and connecting blocks to performs a task.
+[Node RED Main Page](https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/)
+
+## Mosquito Broker
+In an MQTT protocol the broker is responsible for receving, filtering, and then decidng who is responsible for pbuilching messages to subscribe clinets. Mosquitto is one broker that is installed in the Raspberry Pi.
+
 ```C++
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
