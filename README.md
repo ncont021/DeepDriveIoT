@@ -45,6 +45,11 @@ Is a lightweight protocol to publish and subscribe system where you can publish 
 ## Node-RED
 An open source tool for building Internet of Things (IoT), making use of low code environment by making use of visual programming and connecting blocks to performs a task.
 [Node RED Main Page](https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/)
+### Installing and Upgrading Node-RED 
+[Installation Guide](https://nodered.org/docs/getting-started/raspberrypi)
+```bash
+bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
+```
 # ![37](DPIoT/Node-RED-overview.png)
 
 ## Mosquito Broker
