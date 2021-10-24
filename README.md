@@ -51,6 +51,23 @@ An open source tool for building Internet of Things (IoT), making use of low cod
 In an MQTT protocol the broker is responsible for receving, filtering, and then decidng who is responsible for pbuilching messages to subscribe clinets. Mosquitto is one broker that is installed in the Raspberry Pi.
 # ![38](DPIoT/Installing-and-Testing-MQTT-Broker-on-Raspberry-Pi-for-IoT-Communication.png)
 
+### Installing Mosquitto Broker
+```bash
+pi@raspberry:~ $ sudo apt update
+pi@raspberry:~ $ sudo apt install -y mosquitto mosquitto-clients
+
+pi@raspberry:~ $ sudo systemctl enable mosquitto.service
+```
+
+```bash
+### Starting it!
+pi@raspberry:~ $ mosquitto -v
+```
+### What is my IP?
+```bash
+pi@raspberry:~ $ hostname -I 
+```
+
 ```C++
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
