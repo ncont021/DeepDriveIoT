@@ -149,13 +149,12 @@ void loop() {
             delay(15);
             }
 
-              else {z`
+              else {
             Serial.println("Normal Temperature");
             digitalWrite(2, LOW);
             digitalWrite(0, HIGH);  // 0 = green ; 2 = red
             Serial.println(" ");  
               }
-}
             } else {
               Serial.println("Data is not ready!");
               delay(5000);
