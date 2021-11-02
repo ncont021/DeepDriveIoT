@@ -82,6 +82,7 @@ DHT Sensor Library - an easy way of using any DHT sensor to read temperature and
 # ![38](DPIoT/ESP8266-NodeMCU-kit-12-E-pinout-gpio-pin.png)
 ### Project Basic Pin Out
 # ![39](DPIoT/ESP8266_MQTT_Node-RED_bb-1.png)
+
 ```C++
 #include <ESP8266WiFi.h>
 #include <PubSubClient.h>
@@ -90,7 +91,6 @@ DHT Sensor Library - an easy way of using any DHT sensor to read temperature and
 /*
  ESP8266 Pin out  https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
  DHT11 Pin out/Basic Code https://create.arduino.cc/projecthub/arcaegecengiz/using-dht11-b0f365
- CCS811 Pin out/Basic Code https://wiki.keyestudio.com/KS2002_EASY_Plug_CCS811_CO2_Air_Quality_Sensor(Black_and_Eco-friendly)
  I2C Scanner https://playground.arduino.cc/Main/I2cScanner/
 
     **** MQQTT Commands *****
@@ -115,18 +115,6 @@ DHT Sensor Library - an easy way of using any DHT sensor to read temperature and
 
     - DHT11
     DATA: ESP D0
-    -CCS811
-    SCL: ESP D1
-    SDA: ESP D2
-    WAKE: GND
-    - Fan
-    DATA: ESP D5
-      > TRANSISTOR CONNECTION https://hacksterio.s3.amazonaws.com/uploads/attachments/527211/dsc_0280_qGPUj4c7cU.JPG
-      Collector: GND of FAN
-      Base: ESP D5
-      Emmiter: GND to ESP
-    - Servo
-    DATA: ESP D6
 */
 
 
@@ -256,3 +244,16 @@ void loop() {
 
 } // End of Program
 ```
+
+# Libraries
+``` C++
+#include <ESP8266WiFi.h>
+#include <PubSubClient.h>
+#include <DHT.h>
+```
+
+# ESP8266 Installation 
+``` C++
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+```
+
