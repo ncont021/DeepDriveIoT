@@ -1,9 +1,9 @@
 # *Deep Dive in Internet of Things*
 
 # ![1](DPIoT/20211019_172732000_iOS.jpg) 
-# ![2](DPIoT/20211019_172744000_iOS.jpg)
-# ![3](DPIoT/20211019_172807000_iOS.jpg)
-# ![4](DPIoT/20211019_172819000_iOS.jpg)
+# ![2](DPIoT/20211019_172744000_iOS.jpg) Attach on top something to report, dataprocessoing and then make controls
+# ![3](DPIoT/20211019_172807000_iOS.jpg) pc vs arduino
+# ![4](DPIoT/20211019_172819000_iOS.jpg) temp old school vs now 
 # ![5](DPIoT/20211019_172833000_iOS.jpg)
 # ![6](DPIoT/20211019_172847000_iOS.jpg)
 # ![7](DPIoT/20211019_172916000_iOS.jpg)
