@@ -1,6 +1,7 @@
 # *Deep Dive in Internet of Things*
 
 # ![1](DPIoT/20211019_172732000_iOS.jpg)
+123 gek thi isd rsd
 # ![2](DPIoT/20211019_172744000_iOS.jpg)
 # ![3](DPIoT/20211019_172807000_iOS.jpg)
 # ![4](DPIoT/20211019_172819000_iOS.jpg)
