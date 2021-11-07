@@ -238,8 +238,8 @@ void loop() {
 
         // Display on MQTT Server
         String toSend = "Temperature(C): " + String(tempSense) + ", Humidity(%) :" +String(humSense);
-        client.publish("room1",toSend.c_str()); // Sends Message
-        client.subscribe("room1"); // Receives Message
+        client.publish("room/values",toSend.c_str()); // Sends Message
+        client.subscribe("room/sensor"); // Receives Message
         delay (1000);
       }
 
