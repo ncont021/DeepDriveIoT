@@ -1,9 +1,9 @@
 # *Deep Dive in Internet of Things*
 
 # ![1](DPIoT/20211019_172732000_iOS.jpg) 
-# ![2](DPIoT/20211019_172744000_iOS.jpg) Attach on top something to report, dataprocessoing and then make controls
-# ![3](DPIoT/20211019_172807000_iOS.jpg) pc vs arduino
-# ![4](DPIoT/20211019_172819000_iOS.jpg) temp old school vs now 
+# ![2](DPIoT/20211019_172744000_iOS.jpg)
+# ![3](DPIoT/20211019_172807000_iOS.jpg) 
+# ![4](DPIoT/20211019_172819000_iOS.jpg) 
 # ![5](DPIoT/20211019_172833000_iOS.jpg)
 # ![6](DPIoT/20211019_172847000_iOS.jpg)
 # ![7](DPIoT/20211019_172916000_iOS.jpg)
@@ -53,7 +53,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 # ![37](DPIoT/Node-RED-overview.png)
 
 ## Mosquito Broker
-In an MQTT protocol the broker is responsible for receving, filtering, and then decidng who is responsible for pbuilching messages to subscribe clinets. Mosquitto is one broker that is installed in the Raspberry Pi.
+In an MQTT protocol the broker is responsible for receiving, filtering, and then deciding who is responsible for publishing messages to subscribe clients. Mosquitto is one broker that is installed in the Raspberry Pi.
 # ![38](DPIoT/Installing-and-Testing-MQTT-Broker-on-Raspberry-Pi-for-IoT-Communication.png)
 
 ### Installing Mosquitto Broker
