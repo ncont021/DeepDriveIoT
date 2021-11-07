@@ -287,7 +287,7 @@ http://arduino.esp8266.com/stable/package_esp8266com_index.json
 
 ### Terminal and Running 
 # MQTT Mosquitto
-# ![40](DPIoT/Screenshot from 2021-11-07 11-10-14.png)
+#![40](DPIoT/Screenshot from 2021-11-07 11-10-14.png)
 # ![47](DPIoT/Screenshot from 2021-11-07 12-31-23.png)
 # Node-Red After Installation
 # ![41](DPIoT/Screenshot from 2021-11-07 11-09-55.png)
