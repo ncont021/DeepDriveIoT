@@ -146,7 +146,7 @@ DHT Sensor Library - an easy way of using any DHT sensor to read temperature and
 
 
 #define DHTTYPE DHT11
-#define DHT11_PIN 16 // PIN ESP8266 = D0
+#define DHT11_PIN 5 // PIN ESP8266 = D1
 
 DHT dht(DHT11_PIN, DHTTYPE);
 float tempSense;
