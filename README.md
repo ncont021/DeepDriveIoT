@@ -47,9 +47,30 @@ An open source tool for building Internet of Things (IoT), making use of low cod
 [Node RED Main Page](https://randomnerdtutorials.com/getting-started-with-node-red-on-raspberry-pi/)
 ### Installing and Upgrading Node-RED 
 [Installation Guide](https://nodered.org/docs/getting-started/raspberrypi)
+
 ```bash
 bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/master/deb/update-nodejs-and-nodered)
 ```
+
+```bash
+# Node-RED has also been packaged for the Raspberry Pi OS repositories and appears in their list of 'Recommended Software'.
+apt-get install nodered
+```
+
+# Installing the Latest versio of node.js
+```bash
+curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
+```
+
+# Finally running Node-Red
+```bash
+node-red
+
+Welcome to Node-RED
+===================
+
+```
+
 # ![37](DPIoT/Node-RED-overview.png)
 
 ## Mosquito Broker
@@ -59,11 +80,15 @@ In an MQTT protocol the broker is responsible for receiving, filtering, and then
 ### Installing Mosquitto Broker
 ```bash
 pi@raspberry:~ $ sudo apt update
-pi@raspberry:~ $ sudo apt install -y mosquitto mosquitto-clients
+pi@raspberry:~ $ sudo apt install mosquitto mosquitto-clients
 
 pi@raspberry:~ $ sudo systemctl enable mosquitto.service
+# Making sure it will run when the machine starts
 ```
-
+```bash
+pi@raspberry:~ $ sudo systemctl status mosquitto
+# Making sure the broker is actually running on your machine
+```
 ### Starting it!
 ```bash
 pi@raspberry:~ $ mosquitto -v
@@ -71,6 +96,7 @@ pi@raspberry:~ $ mosquitto -v
 ### What is my IP?
 ```bash
 pi@raspberry:~ $ hostname -I 
+# Important to have when setting up the MQTT server
 ```
 # Arduino IDE
 ## Installing Libraries 
