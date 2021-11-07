@@ -110,7 +110,8 @@ DHT Sensor Library - an easy way of using any DHT sensor to read temperature and
     -P password MQTT
     -m message (message you want to sent)
 
-
+    https://www.youtube.com/watch?v=HkeVCOj_pSQ
+    
     **** ESP8211 Connections - ESP8266 PIN out as reference *****
 
     - DHT11
