@@ -263,7 +263,7 @@ void loop() {
         // LED ACTUATION END
 
         // Display on MQTT Server
-        String toSend = "Temperature(C): " + String(tempSense) + ", Humidity(%) :" +String(humSense);
+        String toSend = "{\"Temperature\":"+String(tempSense)"+", \"Humidity":"+"String(humSense)+"}";
         client.publish("room1",toSend.c_str()); // Sends Message
         client.subscribe("room1"); // Receives Message
         delay (1000);
