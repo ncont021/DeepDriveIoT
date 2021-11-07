@@ -57,7 +57,7 @@ bash <(curl -sL https://raw.githubusercontent.com/node-red/linux-installers/mast
 apt-get install nodered
 ```
 
-# Installing the Latest versio of node.js
+# Installing the Latest version of node.js
 ```bash
 curl -sL https://deb.nodesource.com/setup_16.x | sudo bash -
 ```
