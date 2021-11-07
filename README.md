@@ -135,8 +135,6 @@ DHT Sensor Library - an easy way of using any DHT sensor to read temperature and
     -u username MQTT
     -P password MQTT
     -m message (message you want to sent)
-
-    https://www.youtube.com/watch?v=HkeVCOj_pSQ
     
     **** ESP8211 Connections - ESP8266 PIN out as reference *****
 
@@ -284,4 +282,19 @@ void loop() {
 ``` C++
 http://arduino.esp8266.com/stable/package_esp8266com_index.json
 ```
+
+# Part II Final Runs
+
+### Terminal and Running 
+# MQTT Mosquitto
+# ![40](DPIoT/Screenshot from 2021-11-07 11-10-14.png)
+# ![47](DPIoT/Screenshot from 2021-11-07 12-31-23.png)
+# Node-Red After Installation
+# ![41](DPIoT/Screenshot from 2021-11-07 11-09-55.png)
+# Node-Red Settings and GUI
+# ![42](DPIoT/Screenshot from 2021-11-07 12-30-42.png)
+# ![43](DPIoT/Screenshot from 2021-11-07 12-35-24.png)
+# ![44](DPIoT/Screenshot from 2021-11-07 12-34-58.png)
+# ![45](DPIoT/Screenshot from 2021-11-07 12-33-42.png)
+# ![46](DPIoT/Screenshot from 2021-11-07 12-30-10.png)
 
