@@ -128,7 +128,7 @@ float humSense;
 
 const char* ssid = "ATT6zya9Az";        // wifi ssid
 const char* password = "5vb#n=6huf8t";  // wifi password
-const char* mqttServer = "10.0.2.15"; // IP address Raspberry Pi
+const char* mqttServer = "192.168.1.66"; // IP address Raspberry Pi
 const int mqttPort = 1883;                // MQTT Port number
 const char* mqttUser = "CARBON";         // MQQTT User
 const char* mqttPassword = "CARBON";     // MQTT Password
